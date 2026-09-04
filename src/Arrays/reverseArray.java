@@ -10,20 +10,20 @@ public class reverseArray {
         int n = arr.length;
 
         // first approach method
-//        int i = 0; int j = n-1;
-//        while(i < j){
-//            swap(arr, i, j);
-//            i++;
-//            j--;
-//        }
+        int i = 0; int j = n-1;
+        while(i < j){
+            swap(arr, i, j);
+            i++;
+            j--;
+        }
 
         // second approach method
-        for(int i = 0; i < n/2; i++){
-            int temp = arr[i];
-            arr[i] = arr[n-1-i];
-            arr[n - 1 - i] = temp;
-
-        }
+//        for(int i = 0; i < n/2; i++){
+//            int temp = arr[i];
+//            arr[i] = arr[n-1-i];
+//            arr[n - 1 - i] = temp;
+//
+//        }
 
         print(arr);
 
