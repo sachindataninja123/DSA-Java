@@ -15,13 +15,24 @@ public class checkPalindrome {
 
     public static boolean isPalindrome(String str ) {
         int n = str.length();
-        int i =0; int j = n -1;
+        // first method
+//        int i =0; int j = n -1;
+//
+//        while(i <= j){
+//            if(str.charAt(i) != str.charAt(j)) return  false;
+//            else{
+//                i++;
+//                j--;
+//            }
+//        }
+//        return  true;
 
-        while(i <= j){
-            if(str.charAt(i) != str.charAt(j)) return  false;
-            else{
-                i++;
-                j--;
+
+        // second method
+        for(int i = 0; i< n /2 ; i++){
+            if(str.charAt(i) != str.charAt(n-i-1)) return  false;
+            else {
+                return true;
             }
         }
         return  true;
