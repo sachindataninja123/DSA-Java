@@ -2,13 +2,15 @@ package Strings;
 
 public class ReverseWordsOfString {
     static void main(String[] args) {
+//        Input: s = "i.like.this.program.very.much"
+//        Output: "much.very.program.this.like.i"
+
         String s = "i.like.this.program.very.much";
         StringBuilder ans = new StringBuilder();
         int n = s.length();
         int i = n-1;
 
         while(i >= 0){
-            // Skip spaces and dots
             while (i >= 0 &&  s.charAt(i) == '.') {
                 i--;
             }

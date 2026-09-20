@@ -73,7 +73,7 @@ public class FreqCharacters {
                 ans = (char) (i + 97);
             }
         }
-        System.out.println(ans );
+        System.out.println(ans);
     }
 
 }

@@ -31,16 +31,16 @@ public class NonRepeatingChar {
             freq[idx]++;
         }
 
-        int maxfreq = -1;
+        int minfreq = -1;
         for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
-            if (freq[ch - 'a'] == 1) {
-                maxfreq = i;
+            if (freq[ch - 97] == 1) {
+                minfreq = i;
                 System.out.println(ch);
                 break;
             }
         }
-        System.out.println(maxfreq);
+        System.out.println(minfreq);
 
     }
     }
