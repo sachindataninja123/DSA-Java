@@ -6,7 +6,7 @@ public class OnetoNPrint {
     static int n;
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-         n = sc.nextInt();
+        n = sc.nextInt();
         print(1);
     }
 
