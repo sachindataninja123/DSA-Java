@@ -14,8 +14,6 @@ public class SubsetsSum {
 
     }
 
-
-
     public static void subsets(List<Integer> ans,  int[] arr , int idx, int sum){
         if(idx == arr.length) {
             ans.add(sum);

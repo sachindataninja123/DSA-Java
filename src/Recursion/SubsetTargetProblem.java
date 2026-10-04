@@ -6,7 +6,7 @@ import java.util.List;
 public class SubsetTargetProblem {
     static void main(String[] args) {
         int[] arr = {3, 34, 4, 12, 5, 2};
-        int sum = 30;
+        int sum = 9;
 
         System.out.println(subsets(arr, 0, sum));
     }
