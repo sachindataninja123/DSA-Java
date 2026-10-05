@@ -2,7 +2,7 @@ package Recursion;
 
 public class GenerateParenthesis {
     static void main(String[] args) {
-        int n = 4; // output = ["((()))","(()())","(())()","()(())","()()()"]
+        int n = 3; // output = ["((()))","(()())","(())()","()(())","()()()"]
 
         generate(n, 0,0, "");
 
