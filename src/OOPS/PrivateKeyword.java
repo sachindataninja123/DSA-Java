@@ -11,6 +11,14 @@ class Student{
     public void p(){
         print();
     }
+
+    int getRollNo(){ // getter
+        return rollNo;
+    }
+
+    void setRollNo(int x){ // setter
+        rollNo = x;
+    }
 }
 
 public class PrivateKeyword {
@@ -20,7 +28,8 @@ public class PrivateKeyword {
         s1.cgpa = 8.8;
         s1.name = "Sachin";
         s1.p();
-        System.out.println(s1.cgpa + " " + s1.name);
-
+//        System.out.println(s1.cgpa + " " + s1.name);
+        s1.setRollNo(45);
+        System.out.println(s1.getRollNo());
     }
 }
